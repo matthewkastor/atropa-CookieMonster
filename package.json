@@ -1,6 +1,6 @@
 {
     "name": "atropa-CookieMonster",
-    "version": "2013.09.27-2431",
+    "version": "2013.09.29-141",
     "description": "Manipulates browser cookies.",
     "main": "./src/atropa-CookieMonster.js",
     "directories": {
