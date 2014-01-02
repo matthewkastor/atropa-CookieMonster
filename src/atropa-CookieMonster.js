@@ -43,7 +43,6 @@ atropa.requires(
  * @class This represents a cookie handler
  * @returns {CookieMonster} A cookie handler.
  * @requires atropa.data
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.CookieMonster">tests</a>
  */
 atropa.CookieMonster = function CookieMonster() {
     'use strict';
