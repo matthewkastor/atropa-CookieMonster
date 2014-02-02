@@ -1,6 +1,6 @@
 {
   "name": "atropa-CookieMonster",
-  "version": "2014.1.2",
+  "version": "2014.2.1",
   "description": "Manipulates browser cookies.",
   "main": "./src/atropa-CookieMonster.js",
   "directories": {
@@ -21,7 +21,7 @@
     "lint": "atropa-jslint ./src/atropa-CookieMonster.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-CookieMonster.js ./src/atropa-CookieMonster.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-CookieMonster/",
   "bugs": "https://github.com/matthewkastor/atropa-CookieMonster/issues",
