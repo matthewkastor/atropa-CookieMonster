@@ -236,7 +236,7 @@ atropa.CookieMonster = function CookieMonster() {
         return currentCookies;
     };
     /**
-     * Deletes a specified cookie by user submitted string.
+     * Removes a specified cookie by user submitted string.
      * @author <a href="mailto:matthewkastor@gmail.com">
      *  Matthew Christopher Kastor-Inare III </a><br />
      *  ☭ Hial Atropa!! ☭
@@ -260,7 +260,7 @@ atropa.CookieMonster = function CookieMonster() {
         document.cookie = this.bakeCookie(cookieObj);
     };
     /**
-     * Deletes a specified cookie by user submitted cookieObj.
+     * Removes a specified cookie by user submitted cookieObj.
      * @author <a href="mailto:matthewkastor@gmail.com">
      *  Matthew Christopher Kastor-Inare III </a><br />
      *  ☭ Hial Atropa!! ☭
