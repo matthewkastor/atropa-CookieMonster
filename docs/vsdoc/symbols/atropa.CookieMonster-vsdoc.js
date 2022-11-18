@@ -49,13 +49,13 @@
             /// <returns type="Array">An array whose elements are cookie objects.</returns>
         }, 
         
-        "delete": function(whichKey) {
+        deleteCookie: function(whichKey) {
             /// <summary>Removes a specified cookie by user submitted string.</summary>
             /// <param name="whichKey" type="String">The cookies key (name) that
             /// will be deleted.</param>
         }, 
         
-        "delete": function(cookieObj) {
+        deleteCookieObj: function(cookieObj) {
             /// <summary>Removes a specified cookie by user submitted cookieObj.</summary>
             /// <param name="cookieObj" type="cookieObj">A cookie object.</param>
         }, 

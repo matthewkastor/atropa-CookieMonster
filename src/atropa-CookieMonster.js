@@ -1,9 +1,13 @@
 /// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
+/*jslint
+    node: true
+*/
 var atropa = require('atropa-header');
 /*jslint
     indent: 4,
     maxerr: 50,
     white: true,
+    node: true,
     browser: true,
     devel: true,
     plusplus: true,
